@@ -1,0 +1,66 @@
+import java.util.Scanner;
+
+/**
+ * Romanos. Escriba un programa que lea un numero entero n (1 <= n <= 100), e imprima su
+equivalente en numero romano.
+Ejemplo de entrada
+3
+100
+Ejemplo de salida
+iii
+c
+ * 
+ * @author Marco Antonio Vino
+ * @version 1.0 14/03/2018
+ * 
+ */
+public class Romanos {
+	public static void main(String[] args) {
+		// Varaibles
+		int entrada, aux, cen,dec,uni; 
+		String salida ="";
+		Scanner lee = new Scanner(System.in);
+		// Entrada 
+		entrada = lee.nextInt();
+		// Proceso
+		cen = (int) (entrada/100);
+		dec = (int)(entrada-cen*100)/10; 
+		uni = (entrada-cen*100)%10; 
+		if (cen>0)
+			salida+="C";
+		if (dec>0 && dec <4 ) {
+			for(int i = 0; i < dec; i++){
+				salida += "X";
+				} }
+		else if (dec==4)
+			salida += "XL";
+		else if (dec==5)
+			salida += "L";
+		else if (dec>5 && dec<=8) {
+				salida += "L";
+				for(int i = 5; i < dec; i++){
+					salida += "X";
+					}}
+		else if (dec==9) {
+				salida += "XC";
+				}
+		
+		if (uni>0 && uni <4 ) {
+			for(int i = 0; i < dec; i++){
+				salida += "I";
+				} }
+		else if (uni==4)
+			salida += "IV";
+		else if (uni==5)
+			salida += "V";
+		else if (uni>5 && uni<=8) {
+				salida += "V";
+				for(int i = 5; i < uni; i++){
+					salida += "I";}}
+		else if (uni==9) 
+				salida += "IX";
+		// Salida
+		System.out.println(salida);
+		}
+	}
+

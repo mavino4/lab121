@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+/**
+ * Ecuacion. Dados los valores de una ecuacion cuadratica ax2 + bx + c = 0 hallar sus dos
+raices. Los valores a, b, c se ingresan por teclado y son numeros enteros. En el caso de
+raices imaginarias imprima el mensaje "no hay solucionn en los numeros reales".
+
+ * @author Marco Antonio Vino
+ * @version 1.0 14/03/2018
+ * 
+ */
+public class Ecuacion {
+	public static void main(String[] args) {
+		// Varaibles
+		double a, b ,c ,aux, x1 , x2;
+		Scanner lee = new Scanner(System.in);
+		// Entrada 
+		a = lee.nextDouble();
+		b = lee.nextDouble();
+		c = lee.nextDouble();
+		// Proceso
+		aux = Math.pow(b,2) - 4*a*c;
+		if (aux<0) {
+			System.out.println("No hay solucion en los numeros reales");
+		}
+		else {
+			x1 = (-b + Math.sqrt(aux))/2*a;
+			x2 = (-b - Math.sqrt(aux))/2*a;
+		// Salida
+			System.out.println("X1 =" + x1);
+			System.out.println("X2 =" + x2);
+		}
+
+	}
+
+}

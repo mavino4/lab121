@@ -1,0 +1,73 @@
+import java.util.Scanner;
+
+/**
+ * Conversion. Escriba un programa para convertir un valor, de una unidad en otra unidad
+de distancia. Las unidades se encuentran en m(i)limetros, (c)entimetros, (m)etros y
+(k)ilometros. Lea las dos unidades y luego el valor dado. Ejemplo:
+Convertir de: i
+Convertir a: c
+Valor: 10
+10 milimetros = 1 centimetro.
+ * 
+ * @author Marco Antonio Vino
+ * @version 1.0 13/03/2018
+ * 
+ */
+public class Conversion {
+	public static void main(String[] args) {
+		// Varaibles
+		Scanner lee = new Scanner(System.in);
+		String umO, umD;
+		double valor, conversion =0, verificador=0;
+		// Entrada 
+		System.out.println("Las unidades se encuentran en m(i)limetros, (c)entimetros, (m)etros o (k)ilometros");
+		System.out.print("Convertir de: ");
+		umO = lee.nextLine();
+		System.out.print("Convertir a: ");
+		umD = lee.nextLine();
+		System.out.print("Valor: ");
+		valor = lee.nextDouble();
+		// Proceso
+		switch (umO) {
+		case "i" : conversion = valor/1000;
+				umO = "milimetros";
+				break;
+		case "c":  conversion = valor/100;
+		umO = "centimetros";
+				break;		
+		case "m":  conversion = valor;
+		umO = "metros";		
+		break;
+		case "k": conversion = valor*1000;
+		umO = "kilometros";		
+		break;
+		default :
+			verificador =1;
+			break;
+			
+		}
+		//La variable conversion guardara la entrada en metros
+		switch (umD) {
+		case "i" : conversion = conversion*1000;
+		umD = "milimetros";		
+		break;
+		case "c":  conversion = conversion*100;
+		umD = "centimetros";	
+		break;		
+		case "m":  
+			umD = "metros";	
+				break;
+		case "k": conversion = conversion/1000;
+		umD = "kilometros";	
+				break;
+		default :
+			verificador =1;
+			break;
+		}
+		// Salida
+		if (verificador==0)
+		System.out.println(valor +" " + umO + " = "+ conversion + " " + umD);
+		else { System.out.println("ERROR Unidad de medida no valida");}
+	}
+
+}
