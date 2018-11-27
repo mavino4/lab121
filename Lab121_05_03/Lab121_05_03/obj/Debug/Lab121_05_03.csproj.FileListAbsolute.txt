@@ -1,0 +1,6 @@
+C:\Users\Marco\Documents\SharpDevelop Projects\Lab121_05_03\Lab121_05_03\obj\Debug\Lab121_05_03.csprojResolveAssemblyReference.cache
+C:\Users\Marco\Documents\SharpDevelop Projects\Lab121_05_03\Lab121_05_03\bin\Debug\Lab121_05_03.exe.config
+C:\Users\Marco\Documents\SharpDevelop Projects\Lab121_05_03\Lab121_05_03\bin\Debug\Lab121_05_03.exe
+C:\Users\Marco\Documents\SharpDevelop Projects\Lab121_05_03\Lab121_05_03\bin\Debug\Lab121_05_03.pdb
+C:\Users\Marco\Documents\SharpDevelop Projects\Lab121_05_03\Lab121_05_03\obj\Debug\Lab121_05_03.exe
+C:\Users\Marco\Documents\SharpDevelop Projects\Lab121_05_03\Lab121_05_03\obj\Debug\Lab121_05_03.pdb
