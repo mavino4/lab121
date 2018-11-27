@@ -1,0 +1,8 @@
+E:\Users\VINO\Documents\SharpDevelop Projects\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+E:\Users\VINO\Documents\SharpDevelop Projects\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+E:\Users\VINO\Documents\SharpDevelop Projects\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+E:\Users\VINO\Documents\SharpDevelop Projects\Proyecto\Proyecto\obj\Debug\Proyecto.csprojResolveAssemblyReference.cache
+E:\Users\VINO\Documents\SharpDevelop Projects\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+E:\Users\VINO\Documents\SharpDevelop Projects\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+E:\Users\VINO\Documents\SharpDevelop Projects\Proyecto\Proyecto\obj\Debug\Proyecto.MainForm.resources
+E:\Users\VINO\Documents\SharpDevelop Projects\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.Cache

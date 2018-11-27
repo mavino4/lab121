@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 5.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prestamos", "Prestamos\Prestamos.csproj", "{50EE079A-1BBA-4AF0-84B9-B77330F78445}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50EE079A-1BBA-4AF0-84B9-B77330F78445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50EE079A-1BBA-4AF0-84B9-B77330F78445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50EE079A-1BBA-4AF0-84B9-B77330F78445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50EE079A-1BBA-4AF0-84B9-B77330F78445}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

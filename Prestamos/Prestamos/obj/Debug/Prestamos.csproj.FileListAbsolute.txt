@@ -1,0 +1,14 @@
+E:\Users\VINO\Documents\SharpDevelop Projects\Prestamos\Prestamos\obj\Debug\Prestamos.csprojResolveAssemblyReference.cache
+E:\Users\VINO\Documents\SharpDevelop Projects\Prestamos\Prestamos\obj\Debug\Prestamos.MainForm.resources
+E:\Users\VINO\Documents\SharpDevelop Projects\Prestamos\Prestamos\obj\Debug\Prestamos.csproj.GenerateResource.Cache
+E:\Users\VINO\Documents\SharpDevelop Projects\Prestamos\Prestamos\bin\Debug\Prestamos.exe.config
+E:\Users\VINO\Documents\SharpDevelop Projects\Prestamos\Prestamos\bin\Debug\Prestamos.exe
+E:\Users\VINO\Documents\SharpDevelop Projects\Prestamos\Prestamos\bin\Debug\Prestamos.pdb
+E:\Users\VINO\Documents\SharpDevelop Projects\Prestamos\Prestamos\obj\Debug\Prestamos.exe
+E:\Users\VINO\Documents\SharpDevelop Projects\Prestamos\Prestamos\obj\Debug\Prestamos.pdb
+E:\Users\VINO\Documents\SharpDevelop Projects\Prestamos\Prestamos\obj\Debug\Prestamos.AddRecursos.resources
+E:\Users\VINO\Documents\SharpDevelop Projects\Prestamos\Prestamos\obj\Debug\Prestamos.Devolver.resources
+E:\Users\VINO\Documents\SharpDevelop Projects\Prestamos\Prestamos\obj\Debug\Prestamos.Prestar.resources
+E:\Users\VINO\Documents\SharpDevelop Projects\Prestamos\Prestamos\obj\Debug\Prestamos.AddEst.resources
+E:\Users\VINO\Documents\SharpDevelop Projects\Prestamos\Prestamos\obj\Debug\Prestamos.QuienTieneY.resources
+E:\Users\VINO\Documents\SharpDevelop Projects\Prestamos\Prestamos\obj\Debug\Prestamos.QueDebeX.resources

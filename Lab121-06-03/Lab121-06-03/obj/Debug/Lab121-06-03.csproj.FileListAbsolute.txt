@@ -1,0 +1,6 @@
+E:\Users\VINO\Documents\SharpDevelop Projects\Lab121-06-03\Lab121-06-03\obj\Debug\Lab121-06-03.csprojResolveAssemblyReference.cache
+E:\Users\VINO\Documents\SharpDevelop Projects\Lab121-06-03\Lab121-06-03\bin\Debug\Lab121-06-03.exe.config
+E:\Users\VINO\Documents\SharpDevelop Projects\Lab121-06-03\Lab121-06-03\bin\Debug\Lab121-06-03.exe
+E:\Users\VINO\Documents\SharpDevelop Projects\Lab121-06-03\Lab121-06-03\bin\Debug\Lab121-06-03.pdb
+E:\Users\VINO\Documents\SharpDevelop Projects\Lab121-06-03\Lab121-06-03\obj\Debug\Lab121-06-03.exe
+E:\Users\VINO\Documents\SharpDevelop Projects\Lab121-06-03\Lab121-06-03\obj\Debug\Lab121-06-03.pdb

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{50EE079A-1BBA-4AF0-84B9-B77330F78445}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Prestamos</RootNamespace>
+    <AssemblyName>Prestamos</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddEst.cs" />
+    <Compile Include="AddEst.Designer.cs">
+      <DependentUpon>AddEst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddInst.cs" />
+    <Compile Include="AddInst.Designer.cs">
+      <DependentUpon>AddInst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Código\ArchEst.cs" />
+    <Compile Include="Código\ArchRec.cs" />
+    <Compile Include="Código\Estudiante.cs" />
+    <Compile Include="Código\Recurso.cs" />
+    <Compile Include="Devolver.cs" />
+    <Compile Include="Devolver.Designer.cs">
+      <DependentUpon>Devolver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs" />
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prestar.cs" />
+    <Compile Include="Prestar.Designer.cs">
+      <DependentUpon>Prestar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueDebeX.cs" />
+    <Compile Include="QueDebeX.Designer.cs">
+      <DependentUpon>QueDebeX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuienTieneY.cs" />
+    <Compile Include="QuienTieneY.Designer.cs">
+      <DependentUpon>QuienTieneY.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddEst.resx">
+      <DependentUpon>AddEst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddInst.resx">
+      <DependentUpon>AddInst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devolver.resx">
+      <DependentUpon>Devolver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prestar.resx">
+      <DependentUpon>Prestar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueDebeX.resx">
+      <DependentUpon>QueDebeX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuienTieneY.resx">
+      <DependentUpon>QuienTieneY.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Código" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
