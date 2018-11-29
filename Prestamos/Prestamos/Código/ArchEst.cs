@@ -10,7 +10,7 @@ namespace Prestamos
 	    private string route;
 		public ArchEst( string na ) {
 			nombre = na;
-	        route = "E:\\Users\\VINO\\Documents\\SharpDevelop Projects\\Prestamos\\";
+	        route = "..\\";
 	        crearNuevo();
 	    }
 		
@@ -40,8 +40,6 @@ namespace Prestamos
 				archE.Close();
 			}
 		}
-	
-		
 		
 		public LinkedList<Estudiante> listar() {
 			// Abrimos el archivo o se crea un nuevo archivo si no existe
@@ -65,11 +63,7 @@ namespace Prestamos
 			}
 	        return EstList;
 		}
-	    /// Elimina un producto por el codigo que se le pasa como parametro.
-	    /// <param name="codigo">El codigo, un estero, que se va a eliminar.</param>
-	    /// <returns>Un valor booleano, indica que si realmente se ha eliminado.</returns>
-	
-	    
+
 	    
 	    public Estudiante getEstudante(int ci)
 	    {
@@ -134,9 +128,7 @@ namespace Prestamos
 			}
 			return sw;
 		}
-		/// Modifica un producto por el codigo que se le pasa como parametro.
-		/// <param name="codigo">El codigo, un estero, que se va a eliminar.</param>
-		/// <returns>Un valor booleano, indica que si realmente se ha eliminado.</returns>
+
 		public string getRoute(){return route + nombre;}
 	}
 }

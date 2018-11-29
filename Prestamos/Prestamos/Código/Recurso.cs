@@ -1,22 +1,8 @@
-﻿/*
- * Created by SharpDevelop.
- * User: VINO
- * Date: 27/11/2018
- * Time: 11:48 a. m.
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
+﻿using System;
 using System.IO;
-using System.Drawing;
-using System.Windows.Forms;
-
 
 namespace Prestamos
 {
-	/// <summary>
-	/// Description of Recurso.
-	/// </summary>
 	public class Recurso
 	{
 		private int codR;

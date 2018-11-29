@@ -1,0 +1,247 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{listingsutf8}
+\usepackage{color} 
+\usepackage{tikz-uml}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper,left=2.5cm, right = 2cm , top= 3cm, bottom = 3cm}
+\setlength{\parindent}{0cm}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.9,0.90,0.84} 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{white},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{blue},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    %este comando sirve para habilitar la presencia de la linea de numeros
+    numbers=left,                        
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle,
+inputencoding=latin1}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{
+\lhead{UMSA}
+\chead{lab-121}
+\rhead{Informática}
+}											% No page header
+\fancyfoot[L]{Marco Antonio Vino}											% Empty 
+\fancyfoot[C]{}											% Empty
+\fancyfoot[R]{\thepage}									% Pagenumbering
+\renewcommand{\headrulewidth}{1pt}			% Remove header underlines
+\renewcommand{\footrulewidth}{0.5pt}				% Remove footer underlines
+\setlength{\headheight}{5pt}
+
+
+
+
+%%% Maketitle metadata
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\title{
+		%\vspace{-1in} 	
+		\usefont{OT1}{bch}{b}{n}
+		\normalfont \normalsize \textsc{Universidad Mayor de San Andres \\
+        Facultad de Ciencias Puras y Naturales\\
+        Carrera de Informática \\
+        lab-121\\
+        Lic. Cecilia E. Tarquino P.} \\ [25pt]
+		\horrule{0.5pt} \\[0.2cm]
+		\huge PROYECTO: Seguimiento de prestamos de material  \\
+       \horrule{2pt} \\[0.1cm]
+}
+
+\author{
+		\normalfont 								\normalsize
+        Marco Antonio Vino Chipana	 \\
+        CI 9111299 L.P.\\
+        29 de noviembre de 2108\\[-3pt]		\normalsize        
+}
+\date{}
+\begin{document}
+
+%\begin{center}
+%\maketitle
+ 
+%\section*{Práctica \#1 \\ Comandos para manejo de directorios, archivos y permisos}
+%\end{center}
+\maketitle 
+\thispagestyle{empty}
+
+\newpage
+\section{Introducción}
+\section{Análisis del ambiente y el problema}
+\subsection{Estado del arte}
+Como primer recurso se utilizará un inventario, el cual es una relación detallada, ordenada y valorada de los elementos que componen el patrimonio de una empresa o persona en un momento determinado. 
+\begin{center}
+\vspace{0.5cm}
+\includegraphics[scale=0.4]{IMG/inventario.jpg} \\ 
+\vspace{0.5cm}
+\end{center}
+
+El segundo elemento serán los usuarios, en informática un usuario es una persona que utiliza una aplicación o sistema a través del uso de una computadora, la cual para su utilización requiere cierto nivel de experticia.  
+\begin{center}
+\vspace{0.5cm}
+\includegraphics[scale=0.4]{IMG/usuarios.png} \\ 
+\vspace{0.5cm}
+\end{center}
+
+Cada uno de los recursos que se podrán utilizar serán considerados ítems,  Consideraremos como un ítem a cada uno de los recursos  físicamente separables que puedan ser prestados individualmente, como ser, un tubo de ensayo, un mortero, etc.  
+\begin{center}
+\vspace{0.5cm}
+\includegraphics[scale=0.4]{IMG/recursos.jpg} \\ 
+\vspace{0.5cm}
+\end{center}
+
+
+
+\subsection{Problemática}
+Debemos llevar un registro del historial de los préstamos a los usuarios para poder saber su confiabilidad y si es que tienen o no sanciones por incumplimiento de reglas \\
+Alertar al administrador cuando los materiales no han sido devueltos en los plazos establecidos para poder hacer in seguimiento. \\
+Saber en tiempo real la disponibilidad de recursos para poder solicitarlos en préstamo.  \\
+Tener un estimado de cuando debería estar disponible el recurso que necesitamos para poder hacer una planificación. \\
+Averiguar la rotación de los elementos para ver la demanda de recursos  y utilizar esta información para futuras adquisiciones, generando preferencias por aquellos elementos que más se hayan encontrado agotados en varias situaciones. 
+
+\section{Objetivos}
+\subsection{Objetivo general}
+Realizar seguimiento al movimiento de los recursos susceptibles a préstamo dentro de una institución.  
+\subsection{Objetivos específicos}
+\begin{itemize}
+\item Registrar todos los préstamos de material
+\item Identificar a todos los usuarios que pueden prestarse material
+\item Establecer plazos de entrega del material prestado
+\item Mostrar en tiempo real la disponibilidad de materiales
+\item Analizar el comportamiento de los materiales más utilizados, más buscados, los encontrados agotados con mayor frecuencia.  
+
+\end{itemize}
+
+\section{Diagrama de clases}
+
+
+\section{Descripción de las clases}
+\subsection{Clases más importantes del desarrollo}
+En esta sección se describirán las clases propias del desarrollo más allá del entorno gráfico que fueron utilizadas durante el desarrollo para cumplir nuestros objetivos.
+\subsubsection{Estudiante}
+\begin{center}
+\begin{tikzpicture}
+\umlclass{Estudiante}
+{ - CI : int \\
+-  nombre : string \\
+- np : int \\
+- Prestados: int[]\\
+}
+{
++ Estudiante() : void\\
++ Estudiante(int,string) : void\\
++ writeArch(BinaryWriter) : void\\
++ readArch(BinaryReader) : void\\
++ prestarX(int) : void\\
++ devolverX(int cod) : bool\\
++ getCI() : int\\
++ getNombre() : string\\
+}
+\end{tikzpicture}
+
+\end{center}
+Esta clase guarda la información de cada estudiante, con su \textit{nombre} , su \textit{C.I.}  además de todos los recursos que se ha prestado.  \\ 
+El método \textbf{prestarX(int)} agrega un recurso a la lista de presados del estudiante.  El método \textbf{devolverX(int)} elimina de la lista de recursos prestados al estudiante, aquel que tenga el código que se pasa como argumento, retorna verdadero si se pudo realizar la devolución y falso si hubo algún fallo.  
+
+\subsubsection{Archivo Estudiante}
+\begin{center}
+\begin{tikzpicture}
+\umlclass{ArchEst}
+{ - nombre : string\\
+- route : string\\
+}
+{ + ArchEst(string) : void\\
++ crearNuevo() : void\\
++ addE(Estudiante) : void\\
++ listar() : LinkedList<Estudiante>\\
++ getEstudiante(int): Estudiante\\
++ eliminar(int) : bool\\
++ getRoute() : string}
+\end{tikzpicture}
+\end{center}
+
+Es la clase que realiza el manejo del archivo donde se guardan todos los estudiantes.  Como atributos tiene el \textit{nombre }del archivo, además de su \textit{ruta}.  El método \textbf{addE(Estudiante)}, agrega al estudiante que pasamos como argumento al final del archivo.  La función \textbf{listar()} nos permite extraer una lista que contiene a todos los estudiantes guardados en el archivo. la función \textbf{getEstudiente(int)} extrae al estudiante cuyo carnet se pasó como argumento.  El método \textbf{eliminar(int)} borra del archivo al estudiante cuyo carnet se haya ingresado como argumento. 
+
+\subsubsection{Recurso}
+\begin{center}
+\begin{tikzpicture}
+\umlclass{Recurso}
+{- codR : int\\
+- nombre : string\\
+- estado : bool\\
+- CIprest : int}
+{
++ Recurso(int , string) : void\\
++ Recurso() : void\\
++ prestarR() : void\\
++ writeArch(BinaryWriter) : void\\
++ readArch(BinaryReader) : void\\
++ getCodR() : int\\
++ getNombreR() : string\\
++ getEstadoR() : bool\\
++ setEstado(bool) : void\\
++ getCiPrest() : int \\
++ setCiPrest(int) : void
+}
+\end{tikzpicture}
+\end{center}
+
+La clase recurso se utiliza para guardar la información de un elemento suceptible a prestamo dentro de nuestro sistema, tiene como atributos un identificador único denotado por \textit{codR}, además de un \textit{nombre}, un \textit{estado} (que es verdadero si está en préstamo y falso si no), además de un \textit{CiPrest}, para saber a quien se le prestó el recurso.   \\ 
+El método \textbf{prestar()} cambia el estado de un recurso a verdadero, el método \textbf{setCiPrest(int)} pone como persona a quien se prestó el recurso, aquella que tenga el carnet ingresado.  De la misma forma \textbf{setEstado(bool)} nos sirve para cambiar el estado del recurso.  
+
+\subsubsection{Archivo Recurso}
+\begin{center}
+\begin{tikzpicture}
+\umlclass{ArchRec}
+{ - nombre : string\\
+- route : string\\
+}
+{ + ArchRec(string) : void\\
++ crearNuevo() : void\\
++ addR(Recurso) : void\\
++ listar() : LinkedList<Recurso>\\
++ getrecurso(int): Recurso\\
++ eliminar(int) : bool\\
++ getRoute() : string}
+
+\end{tikzpicture}\\
+\end{center}
+
+Es la clase que realiza el manejo del archivo donde se guardan todos los Recursos.  Como atributos tiene el \textit{nombre }del archivo, además de su \textit{ruta}.  El método \textbf{addR(Recurso)}, agrega un nuevo Recurso, el que pasamos como argumento al final del archivo, por defecto setea el estado como disponible.  La función \textbf{listar()} nos permite extraer una lista que contiene a todos los recursos guardados en el archivo. la función \textbf{getrecurso(int)} extrae al recurso con el código que se pasó como argumento.  El método \textbf{eliminar(int)} borra del archivo al recurso cuyo código se haya ingresado como argumento. 
+
+
+\subsection{Clases de los formularios del entorno gráfico}
+Se describirán como funcionan los diferentes formularios desarrollados dentro del entorno gráfico del proyecto.  
+
+
+
+\section{Herramientas y librerias utilizadas}
+\section{Código fuente}
+\section{Ejecución del programa}
+\section{Conclusiones}
+\section{Bibliografía}
+
+
+
+
+
+
+\end{document}

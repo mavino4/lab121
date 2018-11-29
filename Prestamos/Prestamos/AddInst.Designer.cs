@@ -19,7 +19,7 @@ namespace Prestamos
 		private System.Windows.Forms.TextBox Nombre;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button AddRec;
 		private System.Windows.Forms.Label Alerta;
 		
 		/// <summary>
@@ -48,7 +48,7 @@ namespace Prestamos
 			this.Nombre = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
-			this.button1 = new System.Windows.Forms.Button();
+			this.AddRec = new System.Windows.Forms.Button();
 			this.Alerta = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
@@ -94,15 +94,15 @@ namespace Prestamos
 			this.label3.Text = "Nombre";
 			this.label3.Click += new System.EventHandler(this.Label3Click);
 			// 
-			// button1
+			// AddRec
 			// 
-			this.button1.Location = new System.Drawing.Point(76, 133);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(132, 28);
-			this.button1.TabIndex = 16;
-			this.button1.Text = "Adicionar";
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(this.Button1Click);
+			this.AddRec.Location = new System.Drawing.Point(76, 133);
+			this.AddRec.Name = "AddRec";
+			this.AddRec.Size = new System.Drawing.Size(132, 28);
+			this.AddRec.TabIndex = 16;
+			this.AddRec.Text = "Adicionar";
+			this.AddRec.UseVisualStyleBackColor = true;
+			this.AddRec.Click += new System.EventHandler(this.Button1Click);
 			// 
 			// Alerta
 			// 
@@ -119,7 +119,7 @@ namespace Prestamos
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(284, 191);
 			this.Controls.Add(this.Alerta);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.AddRec);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.Nombre);

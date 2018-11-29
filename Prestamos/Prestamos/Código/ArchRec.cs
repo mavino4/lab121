@@ -10,7 +10,7 @@ namespace Prestamos
 	    private string route;
 		public ArchRec( string na ) {
 			nombre = na;
-	        route = "E:\\Users\\VINO\\Documents\\SharpDevelop Projects\\Prestamos\\";
+	        route = "..\\";
 	        crearNuevo();
 	    }
 		
@@ -24,10 +24,8 @@ namespace Prestamos
 				Console.WriteLine("El archivo no existe.");
 		}
 		
-		
 		/// Adiciona un producto al final del archivo.
 		public void addR(Recurso Ri) {
-			// Abrimos el archivo o se crea un nuevo archivo si no existe
 			Stream archR = File.Open(route + nombre, FileMode.Append);
 			BinaryWriter escritor = new BinaryWriter(archR);
 			try {
@@ -65,11 +63,7 @@ namespace Prestamos
 			}
 	        return RecList;
 		}
-	    /// Elimina un producto por el codigo que se le pasa como parametro.
-	    /// <param name="codigo">El codigo, un estero, que se va a eliminar.</param>
-	    /// <returns>Un valor booleano, indica que si realmente se ha eliminado.</returns>
-	
-	    
+
 	    
 	    public Recurso getrecurso(int cod)
 	    {
@@ -135,10 +129,7 @@ namespace Prestamos
 			}
 			return sw;
 		}
-		/// Modifica un producto por el codigo que se le pasa como parametro.
-		/// <param name="codigo">El codigo, un estero, que se va a eliminar.</param>
-		/// <returns>Un valor booleano, indica que si realmente se ha eliminado.</returns>
-		
+
 		public string getRoute(){return route + nombre;}
 	}
 }

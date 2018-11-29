@@ -16,14 +16,14 @@ namespace Prestamos
 		private System.ComponentModel.IContainer components = null;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label Prestados;
-		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Button button3;
-		private System.Windows.Forms.Button button4;
+		private System.Windows.Forms.Button AgregarR;
+		private System.Windows.Forms.Button Prestar;
+		private System.Windows.Forms.Button Devolver;
+		private System.Windows.Forms.Button QuienTX;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Button button5;
-		private System.Windows.Forms.Button button6;
+		private System.Windows.Forms.Button AgregarEst;
+		private System.Windows.Forms.Button QueTiX;
 		private System.Windows.Forms.DataGridView GridPrestados;
 		private System.Windows.Forms.DataGridView GridDisponibles;
 		private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
@@ -33,7 +33,6 @@ namespace Prestamos
 		private System.Windows.Forms.DataGridView GridEstudiantes;
 		private System.Windows.Forms.DataGridViewTextBoxColumn CI;
 		private System.Windows.Forms.DataGridViewTextBoxColumn NAMES;
-		private System.Windows.Forms.Button button7;
 		private System.Windows.Forms.DataGridViewTextBoxColumn Estudiante;
 		
 		/// <summary>
@@ -59,14 +58,14 @@ namespace Prestamos
 		{
 			this.label1 = new System.Windows.Forms.Label();
 			this.Prestados = new System.Windows.Forms.Label();
-			this.button1 = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
-			this.button3 = new System.Windows.Forms.Button();
-			this.button4 = new System.Windows.Forms.Button();
+			this.AgregarR = new System.Windows.Forms.Button();
+			this.Prestar = new System.Windows.Forms.Button();
+			this.Devolver = new System.Windows.Forms.Button();
+			this.QuienTX = new System.Windows.Forms.Button();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
-			this.button5 = new System.Windows.Forms.Button();
-			this.button6 = new System.Windows.Forms.Button();
+			this.AgregarEst = new System.Windows.Forms.Button();
+			this.QueTiX = new System.Windows.Forms.Button();
 			this.GridDisponibles = new System.Windows.Forms.DataGridView();
 			this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.N = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -77,7 +76,6 @@ namespace Prestamos
 			this.GridEstudiantes = new System.Windows.Forms.DataGridView();
 			this.CI = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.NAMES = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.button7 = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.GridDisponibles)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.GridPrestados)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.GridEstudiantes)).BeginInit();
@@ -101,45 +99,45 @@ namespace Prestamos
 			this.Prestados.Text = "Prestados";
 			this.Prestados.Click += new System.EventHandler(this.Label2Click);
 			// 
-			// button1
+			// AgregarR
 			// 
-			this.button1.Location = new System.Drawing.Point(333, 78);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(70, 32);
-			this.button1.TabIndex = 6;
-			this.button1.Text = "Agregar";
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(this.Button1Click);
+			this.AgregarR.Location = new System.Drawing.Point(333, 78);
+			this.AgregarR.Name = "AgregarR";
+			this.AgregarR.Size = new System.Drawing.Size(70, 32);
+			this.AgregarR.TabIndex = 6;
+			this.AgregarR.Text = "Agregar";
+			this.AgregarR.UseVisualStyleBackColor = true;
+			this.AgregarR.Click += new System.EventHandler(this.Button1Click);
 			// 
-			// button2
+			// Prestar
 			// 
-			this.button2.Location = new System.Drawing.Point(333, 128);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(70, 30);
-			this.button2.TabIndex = 7;
-			this.button2.Text = "Prestar";
-			this.button2.UseVisualStyleBackColor = true;
-			this.button2.Click += new System.EventHandler(this.Button2Click);
+			this.Prestar.Location = new System.Drawing.Point(333, 128);
+			this.Prestar.Name = "Prestar";
+			this.Prestar.Size = new System.Drawing.Size(70, 30);
+			this.Prestar.TabIndex = 7;
+			this.Prestar.Text = "Prestar";
+			this.Prestar.UseVisualStyleBackColor = true;
+			this.Prestar.Click += new System.EventHandler(this.Button2Click);
 			// 
-			// button3
+			// Devolver
 			// 
-			this.button3.Location = new System.Drawing.Point(73, 341);
-			this.button3.Name = "button3";
-			this.button3.Size = new System.Drawing.Size(75, 23);
-			this.button3.TabIndex = 8;
-			this.button3.Text = "Devolver";
-			this.button3.UseVisualStyleBackColor = true;
-			this.button3.Click += new System.EventHandler(this.Button3Click);
+			this.Devolver.Location = new System.Drawing.Point(73, 341);
+			this.Devolver.Name = "Devolver";
+			this.Devolver.Size = new System.Drawing.Size(75, 23);
+			this.Devolver.TabIndex = 8;
+			this.Devolver.Text = "Devolver";
+			this.Devolver.UseVisualStyleBackColor = true;
+			this.Devolver.Click += new System.EventHandler(this.Button3Click);
 			// 
-			// button4
+			// QuienTX
 			// 
-			this.button4.Location = new System.Drawing.Point(221, 339);
-			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size(148, 26);
-			this.button4.TabIndex = 9;
-			this.button4.Text = "¿Quien tiene el recurso Y?";
-			this.button4.UseVisualStyleBackColor = true;
-			this.button4.Click += new System.EventHandler(this.Button4Click);
+			this.QuienTX.Location = new System.Drawing.Point(221, 339);
+			this.QuienTX.Name = "QuienTX";
+			this.QuienTX.Size = new System.Drawing.Size(148, 26);
+			this.QuienTX.TabIndex = 9;
+			this.QuienTX.Text = "¿Quien tiene el recurso Y?";
+			this.QuienTX.UseVisualStyleBackColor = true;
+			this.QuienTX.Click += new System.EventHandler(this.Button4Click);
 			// 
 			// label2
 			// 
@@ -160,25 +158,25 @@ namespace Prestamos
 			this.label3.TabIndex = 11;
 			this.label3.Text = "Estudiantes";
 			// 
-			// button5
+			// AgregarEst
 			// 
-			this.button5.Location = new System.Drawing.Point(765, 78);
-			this.button5.Name = "button5";
-			this.button5.Size = new System.Drawing.Size(70, 32);
-			this.button5.TabIndex = 13;
-			this.button5.Text = "Agregar";
-			this.button5.UseVisualStyleBackColor = true;
-			this.button5.Click += new System.EventHandler(this.Button5Click);
+			this.AgregarEst.Location = new System.Drawing.Point(765, 78);
+			this.AgregarEst.Name = "AgregarEst";
+			this.AgregarEst.Size = new System.Drawing.Size(70, 32);
+			this.AgregarEst.TabIndex = 13;
+			this.AgregarEst.Text = "Agregar";
+			this.AgregarEst.UseVisualStyleBackColor = true;
+			this.AgregarEst.Click += new System.EventHandler(this.Button5Click);
 			// 
-			// button6
+			// QueTiX
 			// 
-			this.button6.Location = new System.Drawing.Point(765, 128);
-			this.button6.Name = "button6";
-			this.button6.Size = new System.Drawing.Size(70, 75);
-			this.button6.TabIndex = 14;
-			this.button6.Text = "¿Qué tiene el estudiante X?";
-			this.button6.UseVisualStyleBackColor = true;
-			this.button6.Click += new System.EventHandler(this.Button6Click);
+			this.QueTiX.Location = new System.Drawing.Point(765, 128);
+			this.QueTiX.Name = "QueTiX";
+			this.QueTiX.Size = new System.Drawing.Size(70, 75);
+			this.QueTiX.TabIndex = 14;
+			this.QueTiX.Text = "¿Qué tiene el estudiante X?";
+			this.QueTiX.UseVisualStyleBackColor = true;
+			this.QueTiX.Click += new System.EventHandler(this.Button6Click);
 			// 
 			// GridDisponibles
 			// 
@@ -256,33 +254,22 @@ namespace Prestamos
 			this.NAMES.Name = "NAMES";
 			this.NAMES.Width = 180;
 			// 
-			// button7
-			// 
-			this.button7.Location = new System.Drawing.Point(765, 334);
-			this.button7.Name = "button7";
-			this.button7.Size = new System.Drawing.Size(75, 37);
-			this.button7.TabIndex = 19;
-			this.button7.Text = "Actualizar Datos";
-			this.button7.UseVisualStyleBackColor = true;
-			this.button7.Click += new System.EventHandler(this.Button7Click);
-			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(852, 383);
-			this.Controls.Add(this.button7);
 			this.Controls.Add(this.GridEstudiantes);
 			this.Controls.Add(this.GridPrestados);
 			this.Controls.Add(this.GridDisponibles);
-			this.Controls.Add(this.button6);
-			this.Controls.Add(this.button5);
+			this.Controls.Add(this.QueTiX);
+			this.Controls.Add(this.AgregarEst);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
-			this.Controls.Add(this.button4);
-			this.Controls.Add(this.button3);
-			this.Controls.Add(this.button2);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.QuienTX);
+			this.Controls.Add(this.Devolver);
+			this.Controls.Add(this.Prestar);
+			this.Controls.Add(this.AgregarR);
 			this.Controls.Add(this.Prestados);
 			this.Controls.Add(this.label1);
 			this.Name = "MainForm";

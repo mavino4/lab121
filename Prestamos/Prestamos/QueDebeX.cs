@@ -1,29 +1,17 @@
 ﻿using System;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace Prestamos
 {
-
 	public partial class QueDebeX : Form
 	{
-		ArchRec archR = new ArchRec("Inventario.dat");
-		ArchEst archE = new ArchEst("HistEstudiantes.dat");
+		private ArchRec archR = new ArchRec("Inventario.dat");
+		private ArchEst archE = new ArchEst("HistEstudiantes.dat");
 		public QueDebeX()
 		{
-			//
-			// The InitializeComponent() call is required for Windows Forms designer support.
-			//
 			InitializeComponent();
-			
-			//
-			// TODO: Add constructor code after the InitializeComponent() call.
-			//
 		}
-		void Label2Click(object sender, EventArgs e)
-		{
-	
-		}
+		void Label2Click(object sender, EventArgs e){ }
 		void ConsultarClick(object sender, EventArgs e)
 		{
 			if (Cod.Text != "")
@@ -32,10 +20,6 @@ namespace Prestamos
 				{
 					Estudiante Ei = archE.getEstudante(Int32.Parse(Cod.Text));
 					Nombre.Text = Ei.getNombre();
-					
-					
-					
-					
 					var recList = archR.listar();
 		            Grid.Rows.Clear();
 		            foreach (Recurso Ri in recList) {
@@ -45,8 +29,6 @@ namespace Prestamos
 		                Grid.Rows[n].Cells[0].Value = Ri.getNombreR();
 		            	}
 		            }
-					
-
 				}
 				catch (Exception)
 				{
@@ -54,6 +36,7 @@ namespace Prestamos
 				}
 			}
 		}
+		
 		void CerrarClick(object sender, EventArgs e)
 		{
 			Close();

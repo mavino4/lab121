@@ -1,0 +1,160 @@
+%
+% Compilation of the examples from the TikZ-UML manual, v. 1.0b (2013-03-01)
+% http://www.ensta-paristech.fr/~kielbasi/tikzuml/index.php?lang=en
+%
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[french]{babel}
+\usepackage{fullpage}
+
+\usepackage{tikz-uml}
+
+\sloppy
+\hyphenpenalty 10000000
+
+\title{Package Example: TikZ UML Diagrams}
+\author{Nicolas Kielbasiewicz}
+
+\begin{document}
+
+\maketitle
+
+\section{Class Diagram}
+
+\newpage
+
+\begin{tikzpicture}
+\umlclass{Estudiante}
+{ - CI : int \\
+-  nombre : string \\
+- np : int \\
+- Prestados: int[]\\
+}
+{
++ Estudiante() : void\\
++ Estudiante(int,string) : void\\
++ writeArch(BinaryWriter) : void\\
++ readArch(BinaryReader) : void\\
++ prestarX(int) : void\\
++ devolverX(int cod) : bool\\
++ getCI() : int\\
++ getNombre() : string\\
+}
+
+\umlclass[x=8,y=0]{ArchEst}
+{ - nombre : string\\
+- route : string\\
+}
+{ + ArchEst(string) : void\\
++ crearNuevo() : void\\
++ addE(Estudiante) : void\\
++ listar() : LinkedList<Estudiante>\\
++ getEstudiante(int): Estudiante\\
++ eliminar(int) : bool\\
++ getRoute() : string}
+
+\umlclass[x=0, y=-10]{Recurso}
+{- codR : int\\
+- nombre : string\\
+- estado : bool\\
+- CIprest : int}
+{
++ Recurso(int , string) : void\\
++ Recurso() : void\\
++ prestarR() : void\\
++ writeArch(BinaryWriter) : void\\
++ readArch(BinaryReader) : void\\
++ getCodR() : int\\
++ getNombreR() : string\\
++ getEstadoR() : bool\\
++ setEstado(bool) : void\\
++ getCiPrest() : int \\
++ setCiPrest(int) : void
+}
+
+\umlclass[x=8,y=-10]{ArchRec}
+{ - nombre : string\\
+- route : string\\
+}
+{ + ArchRec(string) : void\\
++ crearNuevo() : void\\
++ addR(Recurso) : void\\
++ listar() : LinkedList<Recurso>\\
++ getrecurso(int): Recurso\\
++ eliminar(int) : bool\\
++ getRoute() : string}
+
+\end{tikzpicture}\\
+\begin{tikzpicture}
+\umlclass{MainForm : Form}
+{ - archE : ArchEst\\
+- archR : ArchRec\\
+}{ + MainForm() : void \\
++ MainFormLoad() : void \\
++ AddRecClick() : void\\
++ PrestarClick() : void\\
++ DevolverClick() : void\\
++ QuienTieneYClick() : void\\
++ AddEstClick() : void\\
++ QueDebeXClick() : void\\
+- FormClosed() : void\\
++ listar() : void
+}
+\end{tikzpicture}
+\\
+\begin{tikzpicture}
+\umlclass{AddRecursos : Form}
+{ - archR : ArchRec\\
+}{ + AddRecursos() : void \\
++ AdicionarClick() : void\\
+}
+\end{tikzpicture}
+\\
+\begin{tikzpicture}
+\umlclass{Prestar : Form}
+{  - archE : ArchEst\\
+- archR : ArchRec\\
+}{ + Prestar() : void \\
++ PrestarClick() : void\\
+}
+\end{tikzpicture}
+\\
+\begin{tikzpicture}
+\umlclass{Devolver : Form}
+{  - archE : ArchEst\\
+- archR : ArchRec\\
+}{ + Devolver() : void \\
++ DevolverClick() : void\\
+}
+\end{tikzpicture}
+\\
+\begin{tikzpicture}
+\umlclass{QuienTieneY : Form}
+{  - archE : ArchEst\\
+- archR : ArchRec\\
+}{ + QuienTieneY() : void \\
++ ConsularClick() : void\\
++ CerrarClick() : void
+}
+\end{tikzpicture}
+\\
+\begin{tikzpicture}
+\umlclass{AddEst : Form}
+{  - archE : ArchEst\\
+}{ + AddEst() : void \\
++ AddEstClick() : void\\
+}
+\end{tikzpicture}
+\\
+\begin{tikzpicture}
+\umlclass{QueDebeX : Form}
+{  - archE : ArchEst\\
+- archR : ArchRec\\
+}{ + QueDebeX() : void \\
++ ConsularClick() : void\\
++ CerrarClick() : void
+}
+\end{tikzpicture}
+\end{document}

@@ -1,10 +1,8 @@
 ﻿using System;
 using System.IO;
-using System.Collections.Generic;
 
 namespace Prestamos
 {
-
 	public class Estudiante
 	{
 		private int CI;
@@ -49,7 +47,6 @@ namespace Prestamos
 		{
 			Prestados[np++] = cod;
 		}
-		
 		
 		public bool devolverX(int cod)
 		{
