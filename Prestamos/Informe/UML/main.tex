@@ -19,11 +19,6 @@
 
 \begin{document}
 
-\maketitle
-
-\section{Class Diagram}
-
-\newpage
 
 \begin{tikzpicture}
 \umlclass{Estudiante}
@@ -87,6 +82,8 @@
 + getRoute() : string}
 
 \end{tikzpicture}\\
+
+\newpage
 \begin{tikzpicture}
 \umlclass{MainForm : Form}
 { - archE : ArchEst\\
@@ -102,59 +99,54 @@
 - FormClosed() : void\\
 + listar() : void
 }
-\end{tikzpicture}
-\\
-\begin{tikzpicture}
-\umlclass{AddRecursos : Form}
+
+\umlclass[x=8,y=0]{AddRecursos : Form}
 { - archR : ArchRec\\
 }{ + AddRecursos() : void \\
 + AdicionarClick() : void\\
 }
-\end{tikzpicture}
-\\
-\begin{tikzpicture}
-\umlclass{Prestar : Form}
+
+\umlclass[x = 8 , y = -5] {Prestar : Form}
 {  - archE : ArchEst\\
 - archR : ArchRec\\
 }{ + Prestar() : void \\
 + PrestarClick() : void\\
 }
-\end{tikzpicture}
-\\
-\begin{tikzpicture}
-\umlclass{Devolver : Form}
+
+\umlclass[x = 8 , y = -10]{Devolver : Form}
 {  - archE : ArchEst\\
 - archR : ArchRec\\
 }{ + Devolver() : void \\
 + DevolverClick() : void\\
 }
-\end{tikzpicture}
-\\
-\begin{tikzpicture}
-\umlclass{QuienTieneY : Form}
+
+\umlclass [x = 0 , y = -7]{QuienTieneY : Form}
 {  - archE : ArchEst\\
 - archR : ArchRec\\
 }{ + QuienTieneY() : void \\
 + ConsularClick() : void\\
 + CerrarClick() : void
 }
-\end{tikzpicture}
-\\
-\begin{tikzpicture}
-\umlclass{AddEst : Form}
+
+\umlclass[x = 0 , y = -12]{AddEst : Form}
 {  - archE : ArchEst\\
 }{ + AddEst() : void \\
 + AddEstClick() : void\\
 }
-\end{tikzpicture}
-\\
-\begin{tikzpicture}
-\umlclass{QueDebeX : Form}
+
+\umlclass[x = 8 , y = -17]{QueDebeX : Form}
 {  - archE : ArchEst\\
 - archR : ArchRec\\
 }{ + QueDebeX() : void \\
 + ConsularClick() : void\\
 + CerrarClick() : void
 }
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\umlclass{Form}
+ {\\  }
+{+ Form() : void}
+
 \end{tikzpicture}
 \end{document}

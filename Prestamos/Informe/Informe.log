@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.6)  29 NOV 2018 00:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.6)  29 NOV 2018 14:43
 entering extended mode
 **./Informe.tex
 (Informe.tex
@@ -1104,22 +1104,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {C:/Users/VINO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
+
+ []
+
 <IMG/inventario.jpg, id=35, 597.23125pt x 431.6125pt>
 File: IMG/inventario.jpg Graphic file (type jpg)
 <use IMG/inventario.jpg>
-Package pdftex.def Info: IMG/inventario.jpg  used on input line 93.
+Package pdftex.def Info: IMG/inventario.jpg  used on input line 99.
 (pdftex.def)             Requested size: 238.88826pt x 172.64194pt.
 <IMG/usuarios.png, id=36, 602.25pt x 254.9525pt>
 File: IMG/usuarios.png Graphic file (type png)
 <use IMG/usuarios.png>
-Package pdftex.def Info: IMG/usuarios.png  used on input line 100.
+Package pdftex.def Info: IMG/usuarios.png  used on input line 106.
 (pdftex.def)             Requested size: 240.89572pt x 101.97919pt.
 <IMG/recursos.jpg, id=38, 642.4pt x 351.3125pt>
 File: IMG/recursos.jpg Graphic file (type jpg)
 <use IMG/recursos.jpg>
-Package pdftex.def Info: IMG/recursos.jpg  used on input line 107.
+Package pdftex.def Info: IMG/recursos.jpg  used on input line 113.
 (pdftex.def)             Requested size: 256.95544pt x 140.5225pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (5.0pt): 
  Make it at least 14.49998pt.
@@ -1127,14 +1130,14 @@ Package Fancyhdr Warning: \headheight is too small (5.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2 <./IMG/inventario.jpg> <./IMG/usuarios.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 125.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 131.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
 
 
 Package Fancyhdr Warning: \headheight is too small (5.0pt): 
@@ -1143,12 +1146,15 @@ Package Fancyhdr Warning: \headheight is too small (5.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3 <./IMG/recursos.jpg>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 157.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 157.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 157.
+<UML/Diagrama.pdf, id=48, 712.12552pt x 537.48105pt>
+File: UML/Diagrama.pdf Graphic file (type pdf)
+<use UML/Diagrama.pdf>
+Package pdftex.def Info: UML/Diagrama.pdf  used on input line 141.
+(pdftex.def)             Requested size: 633.78972pt x 478.35663pt.
+
+Overfull \hbox (8.88614pt too wide) in paragraph at lines 141--142
+[] 
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (5.0pt): 
@@ -1156,7 +1162,14 @@ Package Fancyhdr Warning: \headheight is too small (5.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
+[4 <./UML/Diagrama.pdf>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 165.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 165.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 165.
+
 
 Package Fancyhdr Warning: \headheight is too small (5.0pt): 
  Make it at least 14.49998pt.
@@ -1170,26 +1183,413 @@ Package Fancyhdr Warning: \headheight is too small (5.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6] (Informe.aux) ) 
+[6]
+<IMG/MainForm.png, id=195, 639.13782pt x 315.42844pt>
+File: IMG/MainForm.png Graphic file (type png)
+<use IMG/MainForm.png>
+Package pdftex.def Info: IMG/MainForm.png  used on input line 260.
+(pdftex.def)             Requested size: 300.0pt x 148.05885pt.
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (10.75621pt too wide) in paragraph at lines 261--262
+[] 
+ []
+
+<IMG/AddRecurso.png, id=196, 210.03468pt x 164.86594pt>
+File: IMG/AddRecurso.png Graphic file (type png)
+<use IMG/AddRecurso.png>
+Package pdftex.def Info: IMG/AddRecurso.png  used on input line 277.
+(pdftex.def)             Requested size: 200.0pt x 156.98901pt.
+Missing character: There is no ; in font nullfont!
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <./IMG/MainForm.png>]
+<IMG/Prestar.png, id=201, 211.54031pt x 190.46156pt>
+File: IMG/Prestar.png Graphic file (type png)
+<use IMG/Prestar.png>
+Package pdftex.def Info: IMG/Prestar.png  used on input line 292.
+(pdftex.def)             Requested size: 200.0pt x 180.0772pt.
+Missing character: There is no ; in font nullfont!
+<IMG/Devolver.png, id=202, 210.03468pt x 167.87718pt>
+File: IMG/Devolver.png Graphic file (type png)
+<use IMG/Devolver.png>
+Package pdftex.def Info: IMG/Devolver.png  used on input line 309.
+(pdftex.def)             Requested size: 200.0pt x 159.8564pt.
+Missing character: There is no ; in font nullfont!
+
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <./IMG/AddRecurso.png> <./IMG/Prestar.png>]
+<IMG/QuienTieneY.png, id=206, 205.5178pt x 184.43906pt>
+File: IMG/QuienTieneY.png Graphic file (type png)
+<use IMG/QuienTieneY.png>
+Package pdftex.def Info: IMG/QuienTieneY.png  used on input line 326.
+(pdftex.def)             Requested size: 200.0pt x 179.48822pt.
+Missing character: There is no ; in font nullfont!
+<IMG/AddEstudiante.png, id=207, 216.05719pt x 161.85469pt>
+File: IMG/AddEstudiante.png Graphic file (type png)
+<use IMG/AddEstudiante.png>
+Package pdftex.def Info: IMG/AddEstudiante.png  used on input line 341.
+(pdftex.def)             Requested size: 200.0pt x 149.83177pt.
+Missing character: There is no ; in font nullfont!
+
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <./IMG/Devolver.png> <./IMG/QuienTieneY.png>]
+<IMG/QueDebeX.png, id=211, 219.82124pt x 218.31563pt>
+File: IMG/QueDebeX.png Graphic file (type png)
+<use IMG/QueDebeX.png>
+Package pdftex.def Info: IMG/QueDebeX.png  used on input line 356.
+(pdftex.def)             Requested size: 200.0pt x 198.63753pt.
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (11.01578pt too wide) in paragraph at lines 357--361
+[] \OT1/cmr/m/n/12 Tiene como
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <./IMG/AddEstudiante.png> <./IMG/QueDebeX.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 385.
+
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/Codigo/Estudiante.cs
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 28.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 28.
+
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 57.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/Codigo/ArchEst.cs
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/Codigo/Recurso.cs
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/Codigo/ArchRec.cs
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/MainForm.cs
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/AddEst.cs) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.de
+f"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+) (../Prestamos/AddInst.cs
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/Devolver.cs
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/Prestar.cs
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/QueDebeX.cs
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/QuienTieneY.cs)
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25] ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/Program.cs)
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]
+<IMG/Work/Estado1.png, id=269, 643.6547pt x 310.91156pt>
+File: IMG/Work/Estado1.png Graphic file (type png)
+<use IMG/Work/Estado1.png>
+Package pdftex.def Info: IMG/Work/Estado1.png  used on input line 429.
+(pdftex.def)             Requested size: 321.82655pt x 155.45538pt.
+<IMG/Work/Estado2.png, id=270, 639.13782pt x 308.65312pt>
+File: IMG/Work/Estado2.png Graphic file (type png)
+<use IMG/Work/Estado2.png>
+Package pdftex.def Info: IMG/Work/Estado2.png  used on input line 430.
+(pdftex.def)             Requested size: 319.56813pt x 154.32617pt.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/AddInst.cs)
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27 <./IMG/Work/Estado1.png> <./IMG/Work/Estado2.png>]
+<IMG/Work/Estado3.png, id=274, 637.63219pt x 310.91156pt>
+File: IMG/Work/Estado3.png Graphic file (type png)
+<use IMG/Work/Estado3.png>
+Package pdftex.def Info: IMG/Work/Estado3.png  used on input line 443.
+(pdftex.def)             Requested size: 318.8153pt x 155.45538pt.
+<IMG/Work/Estado4.png, id=275, 640.64343pt x 306.39468pt>
+File: IMG/Work/Estado4.png Graphic file (type png)
+<use IMG/Work/Estado4.png>
+Package pdftex.def Info: IMG/Work/Estado4.png  used on input line 444.
+(pdftex.def)             Requested size: 320.32092pt x 153.19696pt.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/AddEst.cs)
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28 <./IMG/Work/Estado3.png> <./IMG/Work/Estado4.png>]
+<IMG/Work/Estado5.png, id=279, 637.63219pt x 309.40594pt>
+File: IMG/Work/Estado5.png Graphic file (type png)
+<use IMG/Work/Estado5.png>
+Package pdftex.def Info: IMG/Work/Estado5.png  used on input line 456.
+(pdftex.def)             Requested size: 318.8153pt x 154.70259pt.
+<IMG/Work/Estado6.png, id=280, 639.13782pt x 304.88907pt>
+File: IMG/Work/Estado6.png Graphic file (type png)
+<use IMG/Work/Estado6.png>
+Package pdftex.def Info: IMG/Work/Estado6.png  used on input line 457.
+(pdftex.def)             Requested size: 319.56813pt x 152.44415pt.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/Prestar.cs
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29 <./IMG/Work/Estado5.png> <./IMG/Work/Estado6.png>])
+<IMG/Work/Estado7.png, id=284, 643.6547pt x 310.91156pt>
+File: IMG/Work/Estado7.png Graphic file (type png)
+<use IMG/Work/Estado7.png>
+Package pdftex.def Info: IMG/Work/Estado7.png  used on input line 466.
+(pdftex.def)             Requested size: 321.82655pt x 155.45538pt.
+<IMG/Work/Estado8.png, id=285, 637.63219pt x 316.93407pt>
+File: IMG/Work/Estado8.png Graphic file (type png)
+<use IMG/Work/Estado8.png>
+Package pdftex.def Info: IMG/Work/Estado8.png  used on input line 467.
+(pdftex.def)             Requested size: 318.8153pt x 158.46664pt.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/Devolver.cs
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30 <./IMG/Work/Estado7.png> <./IMG/Work/Estado8.png>])
+<IMG/Work/Estado9.png, id=289, 637.63219pt x 309.40594pt>
+File: IMG/Work/Estado9.png Graphic file (type png)
+<use IMG/Work/Estado9.png>
+Package pdftex.def Info: IMG/Work/Estado9.png  used on input line 479.
+(pdftex.def)             Requested size: 318.8153pt x 154.70259pt.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/QuienTieneY.cs
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31 <./IMG/Work/Estado9.png>])
+<IMG/Work/Estado10.png, id=294, 633.11531pt x 307.90031pt>
+File: IMG/Work/Estado10.png Graphic file (type png)
+<use IMG/Work/Estado10.png>
+Package pdftex.def Info: IMG/Work/Estado10.png  used on input line 493.
+(pdftex.def)             Requested size: 316.55687pt x 153.94977pt.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)
+(../Prestamos/QueDebeX.cs
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32 <./IMG/Work/Estado10.png>])
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33] (Informe.bbl)
+
+Package Fancyhdr Warning: \headheight is too small (5.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34] (Informe.aux) ) 
 Here is how much of TeX's memory you used:
- 18643 strings out of 493303
- 392462 string characters out of 3138860
- 512138 words of memory out of 3000000
- 21834 multiletter control sequences out of 15000+200000
- 11280 words of font info for 38 fonts, out of 3000000 for 9000
+ 19432 strings out of 493303
+ 405864 string characters out of 3138860
+ 740545 words of memory out of 3000000
+ 22508 multiletter control sequences out of 15000+200000
+ 11946 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,84p,685b,815s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmti12.pfb>
-Output written on Informe.pdf (6 pages, 274884 bytes).
+ 62i,13n,84p,685b,2198s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12
+.pfb>
+Output written on Informe.pdf (34 pages, 1761905 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 339 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
 

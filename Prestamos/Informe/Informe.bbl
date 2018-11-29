@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{gregorics2015}
+{\sc Gregorics, B., Gregorics, T., Kov{\'a}cs, G.~F., Dobreff, A., and
+  D{\'e}vai, G.}
+\newblock Textual diagram layout language and visualization algorithm.
+\newblock In {\em 2015 ACM/IEEE 18th International Conference on Model Driven
+  Engineering Languages and Systems (MODELS)\/} (2015), IEEE, pp.~196--205.
+
+\bibitem{heinz1996}
+{\sc Heinz, C., and Moses, B.}
+\newblock The listings package, 1996.
+
+\bibitem{joyanes1996}
+{\sc Joyanes~Aguilar, L.}
+\newblock {\em Programaci{\'o}n orientada a objetos}.
+\newblock No.~004.652. 5. McGraw-Hill Interamericana,, 1996.
+
+\bibitem{stevens2003uml}
+{\sc Stevens, P., Whittle, J., and Booch, G.}
+\newblock {\em UML 2003--The Unified Modeling Language, Modeling Languages and
+  Applications: 6th International Conference San Francisco, CA, USA, October
+  20-24, 2003, Proceedings}, vol.~2863.
+\newblock Springer, 2003.
+
+\bibitem{strauss2016c}
+{\sc Strauss, D.}
+\newblock {\em C\# Programming Cookbook}.
+\newblock Packt Publishing Ltd, 2016.
+
+\bibitem{takeyas}
+{\sc Takeyas, B.~L.}
+\newblock Introducci{\'o}n a la programaci{\'o}n en c\# .net.
+
+\end{thebibliography}

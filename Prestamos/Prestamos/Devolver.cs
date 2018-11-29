@@ -28,7 +28,7 @@ namespace Prestamos
 					else {
 						Estudiante Ei = archE.getEstudante(Int32.Parse(CI.Text));
 						if (Ei.devolverX(Ri.getCodR()))
-						{ Mensaje.Text = "Se devolvió el Articulo";
+						{ Mensaje.Text = "Se devolvio el Articulo";
 							Ri.setEstado(false);
 							archR.eliminar(Int32.Parse(Cod.Text));
 							archR.addR(Ri);
@@ -36,15 +36,14 @@ namespace Prestamos
 							archE.addE(Ei);
 							Close();
 						}
-						else{ Mensaje.Text = "El Estudiante no tiene el artículo";}
+						else{ Mensaje.Text = "El Estudiante no tiene el articulo";}
 					}
 				}
 				catch (Exception)
 				{
-					Mensaje.Text = "Error, revise sus parámetros";
+					Mensaje.Text = "Error, revise sus parametros";
 				}
-			}
-			
+			}	
 		}
 	}
 }

@@ -29,10 +29,9 @@ namespace Prestamos
 			}
 			catch (Exception)
 			{
-				Alerta.Text = "Introduzca un código Válido";
+				Alerta.Text = "Introduzca un codigo Valido";
 				Console.WriteLine("Error al agregar el recurso");
-			}
-			
+			}	
 		}
 	}
 }
